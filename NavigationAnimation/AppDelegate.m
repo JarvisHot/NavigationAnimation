@@ -19,7 +19,11 @@
     // Override point for customization after application launch.
     return YES;
 }
-
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void(^)(BOOL succeeded))completionHandler {
+    if (@available(iOS 9.0,*)) {
+        NSLog(@"type ---%@---name---%@---dic--%@",shortcutItem.type,shortcutItem.localizedTitle,shortcutItem.userInfo);
+    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

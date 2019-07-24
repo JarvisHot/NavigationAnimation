@@ -24,6 +24,34 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>jarvis</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>jiang</string>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>设置</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>jj</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>test</key>
+				<string>666</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>666</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>num</string>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>66</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>11</string>
+		</dict>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
